@@ -18,9 +18,11 @@ $ npx sequelize init
 
 ```
 
-config - Configurando do banco de dados. (Conexão)
-migrations - Migrações que são alterações estruturais no banco de dados
-models - Modelo fez referência a tabela no banco de dados
+* **config** - Configurando do banco de dados. (Conexão)
+
+* **migrations** - Migrações que são alterações estruturais no banco de dados
+
+* **models** - Modelo fez referência a tabela no banco de dados
 
 ## Criação de modelos e migrações
 ```sh
