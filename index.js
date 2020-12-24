@@ -15,6 +15,7 @@ app.use(function(req, res, next){
     next();
 });
 
+
 app.use('/', indexRouter);
 app.use('/clients', clientsRouter);
 app.use('/products', productsRouter);
